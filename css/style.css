@@ -1,0 +1,10 @@
+/*le height devono essere poi eliminate*/
+.ss_container,
+.ss_box{
+  height: 400px;
+  border: 1px solid black;
+}
+
+.ss_box{
+  height: 300px;
+}
