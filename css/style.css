@@ -51,7 +51,8 @@ img {
   width: 60%;
   margin: 0 auto;
 }
-.ss-btn{
+.ss-btn,
+.btn-btn-success{
   background-color: #1abc9c;
   color: white;
   border-color: none;
@@ -62,9 +63,21 @@ img {
   padding: 4px 15px;
   cursor: pointer;
 }
-.ss-form {
+.btn-btn-success{
+  border-color: none;
+}
+.ss-form{
   /*placeholder*/
   height: 300px;
+}
+
+.ss-form-custom{
+  border-bottom: 1px solid lightgray;
+}
+.ss-text-form{
+  border: none;
+  border-bottom: 1px solid lightgray;
+  border-radius: 0;
 }
 
 .ss-footer-top {
